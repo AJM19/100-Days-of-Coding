@@ -1,0 +1,13 @@
+<div class="background">
+    <div class="heading">
+        <h1 class="header">Jeopardy</h1>
+    </div>
+    <div class="row">
+        <div *ngFor='let x of categories'>
+            <mat-card class="categoryBox">{{x.category}}</mat-card>
+        </div>
+    </div>
+    <div *ngFor='let i of qA'>
+        <mat-card class="boxes">{{i.question}}</mat-card>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+{
+    "categories": [
+        {
+            "category": "Sports"
+        },
+        {
+            "category": "History"
+        },
+        {
+            "category": "Pop-Culture"
+        },
+        {
+            "category": "Food"
+        },
+        {
+            "category": "Science"
+        }
+    ],
+    "questions": [
+        {
+            "question": "This athlete is the NFL GOAT",
+            "answer": "Who is Tom Brady?"
+        },
+        {
+            "question": "This athlete is the NFL GOAT",
+            "answer": "Who is Tom Brady?"
+        },
+        {
+            "question": "This athlete is the NFL GOAT",
+            "answer": "Who is Tom Brady?"
+        },
+        {
+            "question": "This athlete is the NFL GOAT",
+            "answer": "Who is Tom Brady?"
+        },
+        {
+            "question": "This athlete is the NFL GOAT",
+            "answer": "Who is Tom Brady?"
+        }
+    ]
+}
