@@ -1,16 +1,19 @@
 .header{
-    color: blue
+    color: white;
+    text-align: center;
 }
 
 .background{
-    background-color: black;
+    background-color: #163954;
     height: 1200px;
 }
 
-.boxes{
+.pointsBoxes{
     margin-top: 15px;
-    width: fit-content;
+    width: 80px;
     height: fit-content;
+    text-align: center;
+    margin-right: 10px;
 }
 
 .row{
@@ -24,4 +27,8 @@
     background-color: skyblue;
     text-align: center;
     margin-right: 10px
+}
+
+.center{
+    text-align: center;
 }

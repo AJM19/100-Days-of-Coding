@@ -2,12 +2,20 @@
     <div class="heading">
         <h1 class="header">Jeopardy</h1>
     </div>
-    <div class="row">
-        <div *ngFor='let x of categories'>
-            <mat-card class="categoryBox">{{x.category}}</mat-card>
+    <div class="center">
+        <div class="row">
+            <div *ngFor='let x of categories'>
+                <mat-card class="categoryBox">{{x.category}}</mat-card>
+            </div>
         </div>
-    </div>
-    <div *ngFor='let i of qA'>
-        <mat-card class="boxes">{{i.question}}</mat-card>
+        <div>
+            <div class="row" *ngFor='let i of points'>
+                <mat-card (click)="openSportsDialog(i.value)" class="pointsBoxes">${{i.value}}</mat-card>
+                <mat-card (click)="openHistoryDialog(i.value)" class="pointsBoxes">${{i.value}}</mat-card>
+                <mat-card (click)="openPopCultureDialog(i.value)" class="pointsBoxes">${{i.value}}</mat-card>
+                <mat-card (click)="openFoodDialog(i.value)" class="pointsBoxes">${{i.value}}</mat-card>
+                <mat-card (click)="openScienceDialog(i.value)" class="pointsBoxes">${{i.value}}</mat-card>
+            </div>
+        </div>
     </div>
 </div>

@@ -1,4 +1,21 @@
 {
+    "points": [
+        {
+            "value": "100"
+        },
+        {
+            "value": "200"
+        },
+        {
+            "value": "400"
+        },
+        {
+            "value": "600"
+        },
+        {
+            "value": "800"
+        }
+    ],
     "categories": [
         {
             "category": "Sports"
@@ -18,24 +35,166 @@
     ],
     "questions": [
         {
-            "question": "This athlete is the NFL GOAT",
-            "answer": "Who is Tom Brady?"
-        },
-        {
-            "question": "This athlete is the NFL GOAT",
-            "answer": "Who is Tom Brady?"
-        },
-        {
-            "question": "This athlete is the NFL GOAT",
-            "answer": "Who is Tom Brady?"
-        },
-        {
-            "question": "This athlete is the NFL GOAT",
-            "answer": "Who is Tom Brady?"
-        },
-        {
-            "question": "This athlete is the NFL GOAT",
-            "answer": "Who is Tom Brady?"
+            "Sports": [
+                {
+                    "100": {
+                        "question": " 100 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "200": {
+                        "question": " 200 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "400": {
+                        "question": " 400 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "600": {
+                        "question": " 600 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "800": {
+                        "question": "Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                }
+            ],
+            "History": [
+                {
+                    "100": {
+                        "question": " 100 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "200": {
+                        "question": " 200 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "400": {
+                        "question": " 400 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "600": {
+                        "question": " 600 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "800": {
+                        "question": "Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                }
+            ],
+            "PopCulture": [
+                {
+                    "100": {
+                        "question": " 100 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "200": {
+                        "question": " 200 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "400": {
+                        "question": " 400 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "600": {
+                        "question": " 600 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "800": {
+                        "question": "Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                }
+            ],
+            "Food": [
+                {
+                    "100": {
+                        "question": " 100 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "200": {
+                        "question": " 200 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "400": {
+                        "question": " 400 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "600": {
+                        "question": " 600 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "800": {
+                        "question": "Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                }
+            ],
+            "Science": [
+                {
+                    "100": {
+                        "question": " 100 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "200": {
+                        "question": " 200 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "400": {
+                        "question": " 400 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "600": {
+                        "question": " 600 Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                },
+                {
+                    "800": {
+                        "question": "Shiesty. Brrr.",
+                        "answer": "Who is Joe Burrow?"
+                    }
+                }
+            ]
         }
     ]
 }
