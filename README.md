@@ -1,1 +1,3 @@
-# This is a repository for my 100 days of code challenge. In the folder's you will find my progress from each day. Below is the spreadsheet calendar used to organize my scheduled projects.
+# This is a repository for my 100 days of code challenge. In the folder's you will find my progress from each week's project. 
+
+Week 1 - Jeopardy Game (Angular)
