@@ -1,0 +1,17 @@
+<div class="dialog">
+    <h1 mat-dialog-title>{{category}}<h1 style="color:green">${{value}}</h1>
+    </h1>
+    <div mat-dialog-content>Q: {{question}}</div>
+    <div style="color:blue" *ngIf="isAnswerShowing" mat-dialog-content>A: {{answer}}</div>
+    <div mat-dialog-actions>
+        <button (click)="showAnswer()" mat-button style="background-color:lightblue">{{displayAnswerText}}</button>
+    </div>
+    <div mat-dialog-actions>
+        <div>Who got it right?</div>
+        <button style="margin-left: 10px; margin-right: 10px;" mat-button mat-dialog-close>Player 1</button>
+        <button mat-button mat-dialog-close style="margin-right: 10px;">Player 2</button>
+        <button mat-button mat-dialog-close>No one</button>
+    </div>
+
+
+</div>
