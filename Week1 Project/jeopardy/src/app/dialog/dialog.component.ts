@@ -63,4 +63,12 @@ export class DialogComponent implements OnInit {
     }
   }
 
+  playerOneCorrect() {
+    this.dialogRef.close(1)
+  }
+
+  playerTwoCorrect() {
+    this.dialogRef.close(2)
+  }
+
 }

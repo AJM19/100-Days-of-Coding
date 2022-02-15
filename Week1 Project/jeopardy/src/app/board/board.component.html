@@ -4,6 +4,12 @@
     </div>
     <div class="center">
         <div class="row">
+            <h1 style="color: green;">Player 1: {{player1Score}}</h1>
+            <h1 style="color: green;margin-left: 20px;">Player 2: {{player2Score}}</h1>
+        </div>
+    </div>
+    <div class="center">
+        <div class="row">
             <div *ngFor='let x of categories'>
                 <mat-card class="categoryBox">{{x.category}}</mat-card>
             </div>

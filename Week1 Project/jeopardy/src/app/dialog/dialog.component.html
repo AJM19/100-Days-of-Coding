@@ -8,8 +8,8 @@
     </div>
     <div mat-dialog-actions>
         <div>Who got it right?</div>
-        <button style="margin-left: 10px; margin-right: 10px;" mat-button mat-dialog-close>Player 1</button>
-        <button mat-button mat-dialog-close style="margin-right: 10px;">Player 2</button>
+        <button (click)="playerOneCorrect()" style="margin-left: 10px; margin-right: 10px;" mat-button>Player 1</button>
+        <button (click)="playerTwoCorrect()" mat-button style="margin-right: 10px;">Player 2</button>
         <button mat-button mat-dialog-close>No one</button>
     </div>
 
