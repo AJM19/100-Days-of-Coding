@@ -12,6 +12,10 @@ export class BoardComponent implements OnInit {
   qA: any;
   categories: any;
   points: any;
+  correctPlayer: any;
+  player1Score = 0;
+  player2Score = 0;
+
 
   constructor(private myService: QuestionService, private dialog: MatDialog) { }
 
@@ -36,7 +40,9 @@ export class BoardComponent implements OnInit {
       data: { "value": value, "category": "Sports" }
     });
     dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
+      this.correctPlayer = result;
+      console.log(`Correct Player: Player ${this.correctPlayer}`);
+      this.evaluateScore(this.correctPlayer, value);
     });
   }
   openHistoryDialog(value: any) {
@@ -45,7 +51,9 @@ export class BoardComponent implements OnInit {
       data: { "value": value, "category": "History" }
     });
     dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
+      this.correctPlayer = result;
+      console.log(`Correct Player: Player ${this.correctPlayer}`);
+      this.evaluateScore(this.correctPlayer, value);
     });
   }
   openPopCultureDialog(value: any) {
@@ -54,7 +62,9 @@ export class BoardComponent implements OnInit {
       data: { "value": value, "category": "PopCulture" }
     });
     dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
+      this.correctPlayer = result;
+      console.log(`Correct Player: Player ${this.correctPlayer}`);
+      this.evaluateScore(this.correctPlayer, value);
     });
   }
   openFoodDialog(value: any) {
@@ -63,7 +73,9 @@ export class BoardComponent implements OnInit {
       data: { "value": value, "category": "Food" }
     });
     dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
+      this.correctPlayer = result;
+      console.log(`Correct Player: Player ${this.correctPlayer}`);
+      this.evaluateScore(this.correctPlayer, value);
     });
   }
   openScienceDialog(value: any) {
@@ -72,8 +84,19 @@ export class BoardComponent implements OnInit {
       data: { "value": value, "category": "Science" }
     });
     dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
+      this.correctPlayer = result;
+      console.log(`Correct Player: Player ${this.correctPlayer}`);
+      this.evaluateScore(this.correctPlayer, value);
     });
+
+  }
+
+  evaluateScore(player: number, value: any) {
+    if (player === 1) {
+      this.player1Score += parseInt(value);
+    } else if (player === 2) {
+      this.player2Score += parseInt(value);
+    }
   }
 
 
