@@ -33,6 +33,7 @@
     text-align: center;
 }
 
-.hidden{
-    display: none;
+.disabled{
+    color: white;
+    pointer-events: none;
 }
