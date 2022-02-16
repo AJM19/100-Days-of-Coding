@@ -8,13 +8,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatDialogModule } from '@angular/material/dialog';
 import { DialogComponent } from './dialog/dialog.component';
+import { FinalComponent } from './final/final.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     BoardComponent,
-    DialogComponent
+    DialogComponent,
+    FinalComponent
   ],
   imports: [
     BrowserModule,
