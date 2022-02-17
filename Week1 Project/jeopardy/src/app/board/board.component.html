@@ -1,11 +1,11 @@
 <div class="background">
-    <div class="heading">
+    <div>
         <h1 class="header">Jeopardy</h1>
     </div>
     <div class="center">
         <div class="row">
-            <h1 style="color: green;">Player 1: {{player1Score}}</h1>
-            <h1 style="color: green;margin-left: 20px;">Player 2: {{player2Score}}</h1>
+            <mat-card class="scoreBoxes">Player 1 {{player1Score | currency : 'USD' : 'symbol' : '1.0-0'}}</mat-card>
+            <mat-card class="scoreBoxes">Player 2 {{player2Score | currency : 'USD' : 'symbol' : '1.0-0'}}</mat-card>
         </div>
     </div>
     <div class="center">

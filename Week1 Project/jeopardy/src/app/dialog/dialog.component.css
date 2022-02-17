@@ -1,6 +1,13 @@
 .dialog{
-    height: fit-content;
-    width: fit-content;
     font-size: 12px;
     padding: 15px;
+    text-align: center;
 }
+
+.title{
+    font-size: 24px
+}
+
+/* mat-dialog-container {
+    background-color: #081679 !important;
+ } */

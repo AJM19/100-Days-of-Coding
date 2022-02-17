@@ -38,36 +38,68 @@
             "Sports": [
                 {
                     "100": {
-                        "question": " 100 Shiesty. Brrr.",
-                        "answer": "Who is Joe Burrow?"
+                        "question": "2022 Winter Olympics city",
+                        "answer": "What is Beijing?"
                     }
                 },
                 {
                     "200": {
-                        "question": " 200 Shiesty. Brrr.",
-                        "answer": "Who is Joe Burrow?"
+                        "question": "Total championships won by Michael Jordan on the bulls",
+                        "answer": "What is 6?"
                     }
                 },
                 {
                     "400": {
-                        "question": " 400 Shiesty. Brrr.",
-                        "answer": "Who is Joe Burrow?"
+                        "question": "The only NFL team to go through an undefeated seaon and win the Superbowl.",
+                        "answer": "Who are the Miami Dolphins?"
                     }
                 },
                 {
                     "600": {
-                        "question": " 600 Shiesty. Brrr.",
-                        "answer": "Who is Joe Burrow?"
+                        "question": "In between the center and tackle. Typically.",
+                        "answer": "What is a guard?"
                     }
                 },
                 {
                     "800": {
-                        "question": "Shiesty. Brrr.",
-                        "answer": "Who is Joe Burrow?"
+                        "question": "Holds the most goals in Bundesliga history with 365 in 427 appearances",
+                        "answer": "Who is Gerg Müller?"
                     }
                 }
             ],
             "History": [
+                {
+                    "100": {
+                        "question": "5th President of the United States of America.",
+                        "answer": "Who is James Monroe?"
+                    }
+                },
+                {
+                    "200": {
+                        "question": " In 1945, scientists in this state witness the first denotation of the atomic bomb",
+                        "answer": "What is New Mexico?"
+                    }
+                },
+                {
+                    "400": {
+                        "question": "To combat fuel shortages, Congress enacted this for 10 months in 1974",
+                        "answer": "What is Daylight Savings?"
+                    }
+                },
+                {
+                    "600": {
+                        "question": "When King George VI visited this first lady and her husband, she served them hot dogs",
+                        "answer": "Who is Eleanor Roosevelt?"
+                    }
+                },
+                {
+                    "800": {
+                        "question": "the name of the landmark Supreme Court case that ruled the racial segregation of schools unconstitutional?",
+                        "answer": "What is Brown v. Board of Education?"
+                    }
+                }
+            ],
+            "Food": [
                 {
                     "100": {
                         "question": " 100 Shiesty. Brrr.",
@@ -102,57 +134,25 @@
             "PopCulture": [
                 {
                     "100": {
-                        "question": " 100 Shiesty. Brrr.",
-                        "answer": "Who is Joe Burrow?"
+                        "question": "Singer of 2021 Superbowl Halftime show.",
+                        "answer": "Who is The Weeknd"
                     }
                 },
                 {
                     "200": {
-                        "question": " 200 Shiesty. Brrr.",
-                        "answer": "Who is Joe Burrow?"
+                        "question": "\"Celebrity family who has over 20 seasons on E, with a new realease on Hulu",
+                        "answer": "Who are the Kardashians?"
                     }
                 },
                 {
                     "400": {
-                        "question": " 400 Shiesty. Brrr.",
-                        "answer": "Who is Joe Burrow?"
+                        "question": "Known for the Twilight Series and more recently, Bruce Wayne",
+                        "answer": "Who is Robert Pattinson?"
                     }
                 },
                 {
                     "600": {
-                        "question": " 600 Shiesty. Brrr.",
-                        "answer": "Who is Joe Burrow?"
-                    }
-                },
-                {
-                    "800": {
-                        "question": "Shiesty. Brrr.",
-                        "answer": "Who is Joe Burrow?"
-                    }
-                }
-            ],
-            "Food": [
-                {
-                    "100": {
-                        "question": " 100 Shiesty. Brrr.",
-                        "answer": "Who is Joe Burrow?"
-                    }
-                },
-                {
-                    "200": {
-                        "question": " 200 Shiesty. Brrr.",
-                        "answer": "Who is Joe Burrow?"
-                    }
-                },
-                {
-                    "400": {
-                        "question": " 400 Shiesty. Brrr.",
-                        "answer": "Who is Joe Burrow?"
-                    }
-                },
-                {
-                    "600": {
-                        "question": " 600 Shiesty. Brrr.",
+                        "question": "",
                         "answer": "Who is Joe Burrow?"
                     }
                 },

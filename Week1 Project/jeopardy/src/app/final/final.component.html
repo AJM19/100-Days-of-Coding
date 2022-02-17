@@ -1,1 +1,8 @@
-<p>{{winner.winner}}</p>
+<div class="finalScreen">
+    <div *ngIf="result.winner != 'Tie'">
+        <p>{{result.winner}} Wins!</p>
+    </div>
+    <div *ngIf="result.winner == 'Tie'">
+        <p>The result is a tie!</p>
+    </div>
+</div>

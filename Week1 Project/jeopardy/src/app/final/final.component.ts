@@ -9,11 +9,11 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 })
 export class FinalComponent implements OnInit {
 
-  constructor(@Inject(MAT_DIALOG_DATA) public winner: any) { }
+  constructor(@Inject(MAT_DIALOG_DATA) public result: any) { }
 
 
   ngOnInit(): void {
-    console.log("incoming data: ", this.winner)
+    console.log("incoming data: ", this.result)
   }
 
 }
