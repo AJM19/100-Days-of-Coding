@@ -16,4 +16,8 @@ export class FinalComponent implements OnInit {
     console.log("incoming data: ", this.result)
   }
 
+  restartApp() {
+    window.location.reload()
+  }
+
 }

@@ -6,8 +6,7 @@
 }
 
 .background{
-    background-image: url(src/assets/jeopardyLogo2.jpeg);
-    background-position: top;
+    background-color: darkblue;
     height: 600px;
 }
 
@@ -17,6 +16,14 @@
     height: fit-content;
     text-align: center;
     margin-right: 10px;
+    margin-left: 10px;
+}
+
+.tilesBg{
+    background-color: #4541b5;
+    width: min-content;
+    margin-bottom: 100px;
+    padding-bottom: 10px;
 }
 
 .scoreBoxes{
@@ -27,6 +34,7 @@
     background-color: green;
     font-family: "Segoe UI", Arial, sans-serif;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .row{
@@ -39,11 +47,13 @@
     height: fit-content;
     background-color: skyblue;
     text-align: center;
-    margin-right: 10px
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .center{
-    text-align: center;
+    margin: auto;
+    text-align:center;
 }
 
 .disabled{
