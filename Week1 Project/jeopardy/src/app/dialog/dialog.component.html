@@ -1,10 +1,10 @@
 <div class="dialog">
-    <h1 mat-dialog-title>{{category}}<h1 style="color:green">${{value}}</h1>
+    <h1 mat-dialog-title class="title">{{category}}<h1 style="color:green">${{value}}</h1>
     </h1>
-    <div mat-dialog-content>Q: {{question}}</div>
-    <div style="color:blue" *ngIf="isAnswerShowing" mat-dialog-content>A: {{answer}}</div>
+    <div style="color:blue; margin-bottom: 5px; font-size: 18px;" mat-dialog-content>{{question}}</div>
+    <div style="color:red; font-size: 18px" *ngIf="isAnswerShowing" mat-dialog-content>{{answer}}</div>
     <div mat-dialog-actions>
-        <button (click)="showAnswer()" mat-button style="background-color:lightblue">{{displayAnswerText}}</button>
+        <button (click)="showAnswer()" mat-button class="showAnswer">{{displayAnswerText}}</button>
     </div>
     <div mat-dialog-actions>
         <div>Who got it right?</div>
@@ -12,6 +12,4 @@
         <button (click)="playerTwoCorrect()" mat-button style="margin-right: 10px;">Player 2</button>
         <button mat-button mat-dialog-close>No one</button>
     </div>
-
-
 </div>

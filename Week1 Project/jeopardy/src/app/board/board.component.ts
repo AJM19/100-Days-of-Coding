@@ -122,7 +122,7 @@ export class BoardComponent implements OnInit {
 
     if (this.totalBoxesSelected === 25) {
       console.log("GAME FINISHED");
-      let winner = (this.player1Score > this.player2Score) ? "Player1" : "Player2";
+      let winner = (this.player1Score >= this.player2Score) ? (this.player1Score == this.player2Score) ? "Tie" : "Player1" : "Player2";
       const dialogRef = this.dialog.open(FinalComponent, {
         data: { "winner": winner }
       });
@@ -131,7 +131,4 @@ export class BoardComponent implements OnInit {
       });
     }
   }
-
-
-
 }
