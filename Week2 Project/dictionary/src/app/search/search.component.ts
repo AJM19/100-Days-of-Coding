@@ -7,14 +7,27 @@ import { ApiHttpService } from '../api-http-service.service';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
+
+  value = "";
+
+  word: any;
+  definition: any;
+  phonetics: any;
+
   constructor(private httpService: ApiHttpService) { }
 
   ngOnInit(): void {
-    const value = this.httpService.getWord("kloperlit").subscribe((data: any) => {
-      console.log(data);
+  }
+
+  searchDictionary() {
+    const value = this.httpService.getWord(this.value).subscribe((data: any) => {
+      this.word = (data[0].word).toUpperCase();
+      this.definition = data[0].meanings.definition
+      console.log(data[0].meanings);
     },
       (error: any) => {
-        console.log('error caught in component: ', error)
+        this.word =
+          console.log('error caught in component: ', error)
       });
     console.log(value);
   }

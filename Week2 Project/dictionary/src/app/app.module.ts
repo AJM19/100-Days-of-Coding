@@ -8,6 +8,7 @@ import { ApiHttpService } from './api-http-service.service';
 import { HttpClientModule } from '@angular/common/http';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { MatIconModule } from '@angular/material/icon';
     HttpClientModule,
     MatInputModule,
     MatIconModule,
+    FormsModule
   ],
   providers: [ApiHttpService],
   bootstrap: [AppComponent]
