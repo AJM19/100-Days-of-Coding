@@ -11,7 +11,7 @@ export class SearchComponent implements OnInit {
   value = "";
 
   word: any;
-  definition: any;
+  definitions: any;
   phonetics: any;
 
   constructor(private httpService: ApiHttpService) { }
@@ -22,14 +22,24 @@ export class SearchComponent implements OnInit {
   searchDictionary() {
     const value = this.httpService.getWord(this.value).subscribe((data: any) => {
       this.word = (data[0].word).toUpperCase();
-      this.definition = data[0].meanings.definition
+      this.definitions = data[0].meanings
+
+      this.definitions.forEach((definition: any) => {
+        console.log(definition);
+      });
       console.log(data[0].meanings);
     },
       (error: any) => {
-        this.word =
-          console.log('error caught in component: ', error)
+        this.word = "Sorry, couldn't find that word...";
+        console.log('error caught in component: ', error)
       });
     console.log(value);
+  }
+
+  clear() {
+    this.value = '';
+    this.word = '';
+    this.definitions = '';
   }
 
 }
