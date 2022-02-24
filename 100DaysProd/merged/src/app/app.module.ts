@@ -17,6 +17,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { MatTabsModule } from '@angular/material/tabs';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -27,6 +28,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     DialogComponent,
     FinalComponent,
     SearchComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
