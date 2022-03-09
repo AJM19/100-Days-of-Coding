@@ -6,4 +6,4 @@ Week 2 - Dictionary (Angular and APIs)
 - Thanks https://dictionaryapi.dev/ for the wonderful API
 - https://github.com/meetDeveloper/freeDictionaryAPI
 
-Week 3 - TBD
+**Has been postponed for personal reasons**
